@@ -1,0 +1,2 @@
+edit /boot/config.txt
+add to end: display_lcd_rotate=2
