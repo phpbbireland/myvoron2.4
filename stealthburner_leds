@@ -7,7 +7,7 @@
 #
 # Example neopixel configuration:
 # [neopixel sb_leds]
-# pin: <your pin> # Spider : PD3 / Octopus : PB0
+# pin: <your pin> # Spider : PD3 / Octopus : canbus = PB0 / EBBCan:gpio16
 # #   The pin connected to the neopixel. This parameter must be
 # #   provided.
 # chain_count: 3 # For single Logo LED
@@ -65,8 +65,7 @@
 
 
 [neopixel sb_leds]
-pin: EBBCan:gpio16
-
+pin: EBBCan:gpio16    #canbus sb2209+sb0000
 chain_count: 3
 color_order: GRBW
 initial_RED: 1.0
